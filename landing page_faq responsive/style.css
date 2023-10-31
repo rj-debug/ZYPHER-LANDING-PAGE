@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Raleway+Dots&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Raleway+Dots&family=Titillium+Web:wght@200&display=swap');
 
@@ -79,7 +78,7 @@ nav{
     padding-top: 20px;
 }
 .zypherlogo {
-    width: 300px;
+    width: 300px ;
     height: 180px;
     margin: 0 auto;
 }
@@ -343,7 +342,7 @@ nav{
     font-weight: 600;
     font-size: 20px;
     color: #ffffff;
-    margin-bottom: 0px; /* Reduce the margin at the bottom */
+   
 }
 .event-rules ul {
     list-style: none;
@@ -358,14 +357,14 @@ nav{
     font-style: normal;
     max-width: 600px;
     margin: 0 auto;
-    margin-top: 2px; /* Add a margin at the top to separate it from Event Rules */
+   
 }
 
 .faq-item {
     margin-bottom: 20px;
     align-items: flex-start;
     transition: background-color 0.5s;
-    margin-bottom: 10px; /* Reduce the margin at the bottom of each FAQ item */
+   
 }
 
 .faq-question {
@@ -434,6 +433,33 @@ nav{
 .scroll-down-page {
     background-attachment: fixed;
 }
-/* footer{
-    background-color: black;
-} */
+
+
+.container {
+    position: relative;
+    height: 100vh;
+}
+
+/*FOOTER PART*/
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.footer-content {
+    color: white;
+}
+
+.logo_f {
+    flex: 1;
+    text-align: center;
+}
+
+.logo_f img {
+    max-width: 50px;
+    height: auto;
+}
