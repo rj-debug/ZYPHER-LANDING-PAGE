@@ -377,10 +377,7 @@ nav{
     text-align: left;
     font-weight: bold;
     transition: background-color 0.5s;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    
 }
 
 .faq-question:hover {
@@ -389,13 +386,12 @@ nav{
 
 .faq-answer {
     height: 0;
+    min-height: 100px; /* Adjust the minimum height as needed */
     overflow: hidden;
     padding: 0;
     background-color: #fce4bc;
     color: #333;
     transition: height 0.3s, padding 0.3s;
-    border-bottom-left-radius: 10px; /* for bottom-left curved edge */
-    border-bottom-right-radius: 10px; /* for bottom-right curved edge */
 }
 
 .faq-item.open .faq-answer {
@@ -418,7 +414,7 @@ nav{
 
 .faq-box .answer {
     background-color: #fce4bc;
-    padding: 15px;
+    padding: 5px;
     font-size: 25px;
     font-family: "Nunito";
     text-decoration: none;
